@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load static %}
+<!-- Portfolio-->
+{% block content %}
+<section class="page-section">
+    <div id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="{% url 'menu_items' %}#starters">
+                        <div class="portfolio-box">
+                            <img class="img-fluid"src="{% static 'assets/img/portfolio/thumbnails/21.jpg' %}"
+                                alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-name">Starters</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="{% url 'menu_items' %}#main_course">
+                        <div class="portfolio-box">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/28.jpg' %}"
+                                alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-name">Main Course</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="{% url 'menu_items' %}#pizzas">
+                        <div class="portfolio-box">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/29.jpg' %}"
+                                alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-name">Pizzas</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="{% url 'menu_items' %}#desserts">
+                        <div class="portfolio-box">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/30.jpg' %}"
+                                alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-name">Dessert</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="{% url 'menu_items' %}#soft_drinks">
+                        <div class="portfolio-box">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/31.jpg' %}"
+                                alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-name">Soft Drinks</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="{% url 'menu_items' %}#beer_wine">
+                        <div class="portfolio-box">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/32.jpg' %}"
+                                alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-name">Beer & Wine</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

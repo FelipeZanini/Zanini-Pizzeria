@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load bootstrap5 %}
+{% load static %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{% block title %} Sign Up Page {% endblock %}
+
+{% block content %}
+<section class="accounts-forms">
+<div class="container page-section vh-100 text-white">
+	<form method="POST" novalidate>
+		{% csrf_token %}
+		<h2>Sign Up</h2>
+		<div class="form-group row g-3 text-white">
+			{{form.as_p}}
+			<input type="submit" class="btn btn-success btn-sm" value="Register" style="width: auto;" />
+			<p>Already has an account? <a href="{% url 'login' %}">Login</a></p>
+	</form>
+</div>
+</div>
+</section>
+{% endblock content%}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+{% for message in messages %}
+<div{% if message.tags %} class="{{ message.tags }} message-style" {% endif %}>{{ message }}</div>
+	{% endfor %}
+<section class="accounts-forms">
+	<div class="container page-section vh-100 text-white">
+		<form method="POST" novalidate>
+			<h2>Login</h2>
+			<div class="form-group row g-3">
+				{% csrf_token %}
+				{{form.as_p}}
+			</div>
+			<input type="submit"  class="btn btn-success btn-sm" value="Login" />
+			<p class="mt-3">Don't have an account? <a href="{% url 'register' %}">Register</a></p>
+		</form>
+	</div>
+</section>
+
+	{% endblock content%}
