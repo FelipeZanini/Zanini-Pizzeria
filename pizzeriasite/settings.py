@@ -130,6 +130,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+CLOUDINARY_STORAGE = { 
+                    'CLOUD_NAME': 'dt2ehnusc',
+                    'API_KEY': '463518555232283',
+                    'API_SECRET': 'NnuHEWgjFi-tfqqtuU_7Fyoql1A', }
+
+
 STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
