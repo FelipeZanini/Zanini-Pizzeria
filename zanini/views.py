@@ -40,3 +40,8 @@ def login_view(request):
                 messages.success(request, "You're logged in!")
                 return redirect('home')
     return render(request, "login.html", {'form': form})
+
+def logout_view(request):
+    logout(request)
+    messages.success(request, "You're logged out!")
+    return redirect('home')
