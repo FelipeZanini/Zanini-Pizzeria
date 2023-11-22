@@ -38,12 +38,12 @@ ALLOWED_HOSTS = ['zanini-pizzeria-0279eae282e5.herokuapp.com', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'cloudinary_storage',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
     'zanini',
