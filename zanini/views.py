@@ -98,3 +98,22 @@ def delete_reservation(request, id_item):
         return redirect('user_page')
     messages.success(request, "Sorry, same day cancellations not allowed.")
     return redirect('user_page')
+
+def update_reservation(request, id_item):
+    form = ReservationForm()
+    if request.method == 'POST':
+        form = ReservationForm(request.POST)
+        if form.is_valid():
+            reservation = Reservation.objects.get(id=id_item)
+            reservation.table_size = form.cleaned_data.get("table_size")
+            reservation.booking_time = form.cleaned_data.get("booking_time")
+            reservation.date = form.cleaned_data.get("date")
+            if Reservation.check_table_avaliability(reservation.table_size,
+                                                    reservation.booking_time,
+                                                    reservation.date):
+                reservation.save()
+                messages.success(request, 'Reservation updated!')
+                return redirect('home')
+            messages.success(request,
+                             'Sorry, Tables full for this date and time.')
+    return render(request, 'book_table.html', {'form': form})
