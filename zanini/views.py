@@ -77,3 +77,15 @@ def book_table(request):
 def user_page(request):
     reservations = Reservation.objects.filter(user=request.user)
     return render(request, 'user_page.html', {'reservations': reservations})
+
+
+def logout_view(request):
+    logout(request)
+    messages.success(request, "You're logged out!")
+    return redirect('home')
+
+def delete_account(request):
+    user = request.user
+    user.delete()
+    messages.success(request, "User deleted successfully!")
+    return redirect('home')
