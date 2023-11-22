@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-
 class Reservation(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     date = models.DateField(null=False)
@@ -25,3 +24,17 @@ class Reservation(models.Model):
 
     booking_time = models.CharField(max_length=1, choices=BOOKING_TIME, null=False)
     table_size = models.CharField(max_length=1, choices=TABLE_SIZE)
+
+    @staticmethod
+    def check_table_avaliability(table_size, booking_time, date):       
+        query_reservation = Reservation.objects.filter(
+            table_size__contains=table_size,
+            booking_time__contains=booking_time,
+            date__contains=date)
+
+        if query_reservation.count() == 2:
+            return False
+        return True
+
+    def __str__(self):
+        return f'{self.booking_time}, {self.date}, for {self.table_size}'

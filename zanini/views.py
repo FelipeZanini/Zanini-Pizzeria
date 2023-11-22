@@ -1,7 +1,8 @@
 from django.shortcuts import render, redirect
-from django.contrib import messages
-from .forms import RegisterForm, LoginForm
 from django.contrib.auth import login, authenticate, logout
+from django.contrib import messages
+from .forms import LoginForm, RegisterForm, ReservationForm
+from .models import Reservation
 
 def home(request):
     return render(request, 'index.html')
@@ -45,3 +46,30 @@ def logout_view(request):
     logout(request)
     messages.success(request, "You're logged out!")
     return redirect('home')
+
+def book_table(request):
+    if not request.user.is_authenticated:
+        messages.success(request, 'Login for table reservations!')
+        return redirect('login')
+
+    form = ReservationForm()
+    if request.method == 'POST':
+        form = ReservationForm(request.POST)
+        if form.is_valid():
+            ts = form.cleaned_data.get("table_size")
+            bt = form.cleaned_data.get("booking_time")
+            dt = form.cleaned_data.get("date")
+            if Reservation.check_table_avaliability(ts, bt, dt):
+                reservation = Reservation(table_size=bt,
+                                          booking_time=bt, date=dt)
+                if not Reservation.objects.filter(user=request.user).exists():
+                    reservation.user = request.user
+                    reservation.save()
+                    messages.success(request, 'Table booked successfully!')
+                    return redirect('home')
+                messages.success(request, 'One reservation at a time allowed!')
+                return redirect('book_table')
+            messages.success(request,
+                             'Sorry, Tables full for this date and time.')
+            return redirect('book_table')
+    return render(request, 'book_table.html', {'form': form})
