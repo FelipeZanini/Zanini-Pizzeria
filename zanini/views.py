@@ -73,3 +73,7 @@ def book_table(request):
                              'Sorry, Tables full for this date and time.')
             return redirect('book_table')
     return render(request, 'book_table.html', {'form': form})
+
+def user_page(request):
+    reservations = Reservation.objects.filter(user=request.user)
+    return render(request, 'user_page.html', {'reservations': reservations})
