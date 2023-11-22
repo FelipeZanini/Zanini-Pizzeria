@@ -32,3 +32,14 @@ class RegisterForm(UserCreationForm):
                 'placeholder': 'Email'
                 }),
         }
+
+
+class LoginForm(forms.Form):
+    username = forms.CharField(max_length=65, widget=forms.TextInput(
+        attrs={'placeholder': 'Username',
+               'style': 'width: 300px;',
+               'class': 'form-control'}))
+    password = forms.CharField(max_length=65, widget=forms.PasswordInput(
+        attrs={'placeholder': 'Password',
+               'style': 'width: 300px;',
+               'class': 'form-control'}))
