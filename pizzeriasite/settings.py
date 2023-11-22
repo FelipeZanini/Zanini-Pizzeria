@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'cloudinary',
     'zanini',
     'fontawesomefree',
-    'crispy_forms',
     'bootstrap5',
 ]
 
