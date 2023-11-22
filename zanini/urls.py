@@ -12,4 +12,8 @@ urlpatterns = [
     path('user_page/', views.user_page, name='user_page'),
     path('delete_account/', views.delete_account, name='delete_account'),
     path('logout/', views.logout_view, name='logout'),
+    path('delete_reservation/<int:id_item>/',
+         views.delete_reservation, name='delete_reservation'),
+    
+    
 ]

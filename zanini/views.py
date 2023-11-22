@@ -89,3 +89,12 @@ def delete_account(request):
     user.delete()
     messages.success(request, "User deleted successfully!")
     return redirect('home')
+
+def delete_reservation(request, id_item):
+    reservation = Reservation.objects.get(id=id_item)
+    if not reservation.date == date.today():
+        reservation.delete()
+        messages.success(request, 'Reservation canceled!')
+        return redirect('user_page')
+    messages.success(request, "Sorry, same day cancellations not allowed.")
+    return redirect('user_page')
