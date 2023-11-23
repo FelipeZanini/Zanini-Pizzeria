@@ -43,7 +43,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
   - __Reservation Section__
  
-  - The reservation area is designated to book tables for two, four or six persons, allowing user to choose from a range of time and dates, convenient experience, it's not an explicit mention at first, but is worth to coment, that user can just book one table per time.
+    - The reservation area is designated to book tables for two, four or six persons, allowing user to choose from a range of time and dates, convenient experience, it's not an explicit mention at first, but is worth to coment, that user can just book one table per time.
 
   ![Reservation Section](/img/reservation.png)
 
@@ -51,15 +51,15 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
  
   - The user page Section is made to manage bookings and the user account itself, allowing the user to log out or even unregister from the site.
     
-  - ![User Page Section](/img/account.png)
+  ![User Page Section](/img/account.png)
     
   - The user also capable of delete the reservation, with one day before it and update the reservation at any time.
     
-  - ![User Page Section](/img/u-booking.png)
+  ![User Page Section](/img/u-booking.png)
 
   - __Log In/ Register__
  
-  - The login and register section is user-friendly and straightforward, allowing user to register and log in, once the user register he is log automatically.
+    - The login and register section is user-friendly and straightforward, allowing user to register and log in, once the user register he is log automatically.
 
   ![Log In/ Register](/img/login.png)
 
@@ -67,13 +67,13 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
   - __Models__
  
-  - For this project only a single model has been made up, that is the Reservation model. This model is responsible for associating each booking with a specific customer. Additionally, it prevents double bookings and includes functionality to check if a table of a given size and at a specific time on a particular date is available(the restaurant just has two table of each size).
-    - user, a one-to-one relationship with the built-in User model, it establishes a link between a reservation and a specific user.
-    - date, a datefield to store the reservation date.
-    - booking_time, representing the selected booking time from the choices provided in BOOKING_TIME(2pm, 3pm, 4pm, ..., 8pm).
-    - table_size, representing the selected table size from the choices provided in TABLE_SIZE(2, 4 or 6 persons).
-    - check_table_availability method, which queries the database to check if a table in a specific time and date is avaliable, if two reservations already exist for the same table, it returns false, indicating that the table is not available; otherwise, it returns true.
-    -  str method provides a string representation of a reservation, displaying booking time, date, and table size.
+    - For this project only a single model has been made up, that is the Reservation model. This model is responsible for associating each booking with a specific customer. Additionally, it prevents double bookings and includes functionality to check if a table of a given size and at a specific time on a particular date is available(the restaurant just has two table of each size).
+      - user, a one-to-one relationship with the built-in User model, it establishes a link between a reservation and a specific user.
+      - date, a datefield to store the reservation date.
+      - booking_time, representing the selected booking time from the choices provided in BOOKING_TIME(2pm, 3pm, 4pm, ..., 8pm).
+      - table_size, representing the selected table size from the choices provided in TABLE_SIZE(2, 4 or 6 persons).
+      - check_table_availability method, which queries the database to check if a table in a specific time and date is avaliable, if two reservations already exist for the same table, it returns false, indicating that the table is not available; otherwise, it returns true.
+      -  str method provides a string representation of a reservation, displaying booking time, date, and table size.
 
   ![Log In/ Register](/img/modelss.png)
 
@@ -99,13 +99,17 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
   - No errors were returned when passing through the official [PEP8](https://pep8ci.herokuapp.com/) validator, used just in tested in all files, but just uploaded the models and views for simplicity purpose.
   
-  ![PEP8 Views](/img/viewspy.png)
+  - PEP8 Views.py.
 
-  ![PEP8 Model](/img/modelpy.png)
+  ![PEP8 Views](/img/viewpep.png)
+
+  - PEP8 Model.py.
+
+  ![PEP8 Model](/img/modelpep.png)
 
  - No errors were returned in Django built tests.
 
-  ![Django Test](/img/Testpy.png)
+  ![Django Test](/img/testdajngo.png)
 
 ## Bugs
 
