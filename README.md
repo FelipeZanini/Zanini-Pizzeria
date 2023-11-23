@@ -18,22 +18,20 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 - __Restaurant Land Page__
  
-  - The initial web page is a eye catch to visitors, having the purpose to quickly capture the attention and instigate the curisioty, that could result in a reservation, or a quick look at the menu. It is well-designed including visually appealing images of the food and a great atmosphere, with an easy navigation to key sections like the menu, reservation system, and user section. The goal is to provide a positive and engaging first impression that motivates visitors to further explore the restaurant.
+  - The initial web page is a eye catch to visitors, having the purpose to quickly capture the attention and instigate the curisioty, that could result in a reservation, or a quick look at the menu. It is well-designed including visually appealing images of the food and a great atmosphere, with an easy navigation to key sections like the menu, reservation system, and user section. The goal is to provide a positive and engaging first impression that motivates visitors to further explore the restaurant, the page contains a link to the reservation section.
+
 
   ![Land Page](/assets/images/Start-Page.png)
 
-- __Guesses Conditions__
+- __Benvenuti Section__
  
-  - The user can guess the letters according to the following conditions:
-    - Only alphabetic characters are inputted.
-    - Only one letter per turn or the word itself.
-    - Only new guesses, assuring the user did not input the same letter again.
+  - The Benvenuti section contributes to a positive user experience by presenting information in a user-friendly manner, indroducing the customer to what would be their expericiences in the restaurant, providing information about our cusine and our way to take care of our customers, the page contains a link to the menu section.
 
   ![Guesses Conditions](/assets/images/Guesses-Conditions.png)
 
-- __Right Guesses__
+- __Menu Section__
 
-  - If the user guess the letter, the letter would be shown in its corresponding position at the word, even if the letter occurs twice at the word.
+  - The menu section objective is to instigate customers with a visually appealing and informative presentation of our food and drinks options, facilitating the decision-making and enhancing the willing for our food, that section divede our menu in six categories, starters, main course, pizzas, desserts, drinks and beverages, hover over this caterogies to see the text information about the menu.
 
   ![Right Guesses](/assets/images/Right-Guesses.png)
 
