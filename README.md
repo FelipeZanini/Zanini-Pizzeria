@@ -21,47 +21,49 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
   - The initial web page is a eye catch to visitors, having the purpose to quickly capture the attention and instigate the curisioty, that could result in a reservation, or a quick look at the menu. It is well-designed including visually appealing images of the food and a great atmosphere, with an easy navigation to key sections like the menu, reservation system, and user section. The goal is to provide a positive and engaging first impression that motivates visitors to further explore the restaurant, the page contains a link to the reservation section.
 
 
-  ![Land Page](/readme-images/land-page.png)
+  ![Land Page](/img/land-page.png)
 
 - __Benvenuti Section__
  
   - The Benvenuti section contributes to a positive user experience by presenting information in a user-friendly manner, indroducing the customer to what would be their expericiences in the restaurant, providing information about our cusine and our way to take care of our customers, the page contains a link to the menu section.
 
-  ![Guesses Conditions](/assets/images/Guesses-Conditions.png)
+  ![Benvenuti Section](/img/b-section.png)
 
 - __Menu Section__
 
   - The menu section objective is to instigate customers with a visually appealing and informative presentation of our food and drinks options, facilitating the decision-making and enhancing the willing for our food, that section divede our menu in six categories, starters, main course, pizzas, desserts, drinks and beverages, hover over this caterogies to see the text information about the menu.
 
-  ![Right Guesses](/assets/images/Right-Guesses.png)
+  ![Menu Section](/img/menu.png)
 
 - __Menu Items Section__
  
   - The menu item describes in a concise way about key details, like it's prince, ingredients, and flavors to inform and attract customers, it is simple and straightforward.
 
-  ![Hangman Stages](/assets/images/Hangman-Stages.png)
+  ![Menu Items Section](/img/m-i.png)
 
   - __Reservation Section__
  
   - The reservation area is designated to book tables for two, four or six persons, allowing user to choose from a range of time and dates, convenient experience, it's not an explicit mention at first, but is worth to coment, that user can just book one table per time.
 
-  ![Hangman Stages](/assets/images/Hangman-Stages.png)
+  ![Reservation Section](/img/reservation.png)
 
 - __User Page Section__
  
   - The user page Section is made to manage bookings and the user account itself, allowing the user to log out or even unregister from the site.
     
-  - ![Hangman Stages](/assets/images/Hangman-Stages.png)
+  - ![User Page Section](/img/account.png)
     
   - The user also capable of delete the reservation, with one day before it and update the reservation at any time.
     
-  - ![Hangman Stages](/assets/images/Hangman-Stages.png)
+  - ![User Page Section](/img/u-booking.png)
 
   - __Log In/ Register__
  
   - The login and register section is user-friendly and straightforward, allowing user to register and log in, once the user register he is log automatically.
 
-  ![Hangman Stages](/assets/images/Hangman-Stages.png)
+  ![Log In/ Register](/img/login.png)
+
+  ![Log In/ Register](/img/register.png)
 
 ### Features Left to Implement
 
