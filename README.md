@@ -10,7 +10,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 
 
-  ![Mock Up](/assets/images/Mockup.png)
+  ![Mock Up](/readme-images/Mockup.png)
 
 ## Features
 
@@ -21,7 +21,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
   - The initial web page is a eye catch to visitors, having the purpose to quickly capture the attention and instigate the curisioty, that could result in a reservation, or a quick look at the menu. It is well-designed including visually appealing images of the food and a great atmosphere, with an easy navigation to key sections like the menu, reservation system, and user section. The goal is to provide a positive and engaging first impression that motivates visitors to further explore the restaurant, the page contains a link to the reservation section.
 
 
-  ![Land Page](/assets/images/Start-Page.png)
+  ![Land Page](/readme-images/land-page.png)
 
 - __Benvenuti Section__
  
