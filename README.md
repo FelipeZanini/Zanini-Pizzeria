@@ -35,27 +35,43 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
   ![Right Guesses](/assets/images/Right-Guesses.png)
 
-- __Hangman Stages__
+- __Menu Items Section__
  
-  - The hangman stages is just the visual feedback of how many attempts are lefting.
-  - Each time the user guesses wrong, a part of the hangman will be drawn, first the head, then the torso, arms and finally the legs, ending the game.
+  - The menu item describes in a concise way about key details, like it's prince, ingredients, and flavors to inform and attract customers, it is simple and straightforward.
 
   ![Hangman Stages](/assets/images/Hangman-Stages.png)
 
-- __Game Over Menssage__
+  - __Reservation Section__
  
-  - When the game is over, as a result of the user running out of attempts or the correct word is guessed, a message with the user result will be displayed, and then the mystery word will be revealed.
-  - Lastly, the user will be asked if he would like to keep playing or not, if he does want, then a new word will be picked, restarting the game, otherwise the game will exit, just the letters 'y' or 'n' will be accepted as a input, lower or upper case.
+  - The reservation area is designated to book tables for two, four or six persons, allowing user to choose from a range of time and dates, convenient experience, it's not an explicit mention at first, but is worth to coment, that user can just book one table per time.
 
-  ![Game Over](/assets/images/Game-Over.png)
+  ![Hangman Stages](/assets/images/Hangman-Stages.png)
+
+- __User Page Section__
+ 
+  - The user page Section is made to manage bookings and the user account itself, allowing the user to log out or even unregister from the site.
+    
+  - ![Hangman Stages](/assets/images/Hangman-Stages.png)
+    
+  - The user also capable of delete the reservation, with one day before it and update the reservation at any time.
+    
+  - ![Hangman Stages](/assets/images/Hangman-Stages.png)
+
+  - __Log In/ Register__
+ 
+  - The login and register section is user-friendly and straightforward, allowing user to register and log in, once the user register he is log automatically.
+
+  ![Hangman Stages](/assets/images/Hangman-Stages.png)
 
 ### Features Left to Implement
 
-  - Allow the user to get a hint to guess the word.
-  - Allow user to choose the dificulty, easy, medium or hard.
-    - In the easy mode, the first letter is shown.
-    - In the medium mode, no special rules will apply.
-    - In the hard mode, the user starts with the head, torso and arms drew, leaving just two attempts to guess the word.
+  - Allow the site admin to receive an email when a customer book a table.
+  - Allow the customer to buy his food online, with.
+    - Containing a payment methods.
+    - Ways to check the delivery time and location.
+  - Exclude the old data every two weeks.
+  - A direct channel to contact the restaurant owner.
+    
 
 ## Testing
 
@@ -75,8 +91,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 ### Solved Bugs
 
-  - When I wrote the function to check if the guess was in the word, the code unexpectedly appended two characters in the same index list, if they both were in the word, causing me a problem to evaluates when the game was finished, that error occurred because I allowed the user to input two characters strings as a guess, the solution was to accept only the whole word or one single character.
-  - When I fixed the bug described above, I didn't get the expected logical result when I inputed the word to be guessed, that happened because I was checking if the user inputted only one letter before checking if the user had guessed the whole word, in other words, was a flow bug.
+  - At the beginning of my journey through this project I was very unused to the Django language, I had to learn more topics while I was doing the project, relying with a lot of help in web forum, but since I got  hang of, it was easy to write my code, the biggest problem is this project was the deployment to Heroku, it took me more than 4 days to solve all the errors that I was facing, such as bad requests, broken links etc, but I decided to user Cloudnary for my page images and White Sound for my static files, since I made that decision everytinh flowed as expected.
 
 ### Reaming Bugs
   
