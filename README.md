@@ -111,9 +111,10 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
     - Fork or clone the repository.
     - Creat a new Heroku app.
     - Set up the configs for the deployment.
+    - Set up the connection with PostgresSQL
     - Link the Heroku app to the repository, then Deploy.
 
-    - The live link can be found here: [My Game](https://hangmanos-42ee37923464.herokuapp.com/)
+    - The live link can be found here: [Zanini Pizzeria](https://zanini-pizzeria-0279eae282e5.herokuapp.com/)
 
 ## Credits:
 
