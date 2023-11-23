@@ -10,7 +10,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 
 
-  ![Mock Up](/readme-images/Mockup.png)
+  ![Mock Up](/img/mockup.png)
 
 ## Features
 
@@ -78,16 +78,22 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 ## Testing
 
   - I have tested the code by the following methods:
+  - Passed on the Django test built in function, no issues found.
   - Passed on the validator code PEPE8, no issues found.
-  - I manually tested the code, passing invalid inputs, such as, more than one letters, numbers, spaces, special characters etc.
-  - I tried all possibles ways to win or lose the game, and no bugs were found.
-  - The game was tested on Heroku terminal and on the local terminal.
+  - I manually tested the code, trying to insert invalid inputs.
+  - The site was tested on Heroku terminal and on the local terminal.
 
 ## Validator Testing
 
-  - No errors were returned when passing through the official [PEP8](https://pep8ci.herokuapp.com/) validator.
+  - No errors were returned when passing through the official [PEP8](https://pep8ci.herokuapp.com/) validator, used just in tested in all files, but just uploaded the models and views for simplicity purpose.
+  
+  ![PEP8 Views](/img/views.py.png)
 
-  ![PEP8 Validator](/assets/images/PEP8.png)
+  ![PEP8 Model](/img/model.py.png)
+
+ - No errors were returned in Django built tests.
+
+  ![Django Test](/img/Testpy.png)
 
 ## Bugs
 
