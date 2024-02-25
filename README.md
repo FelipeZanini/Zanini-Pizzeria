@@ -100,6 +100,8 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 - The site was tested on Heroku terminal and on the local terminal.
 
 # HTML Validator
+
+- Base Template
 ![image](/static/assets/img/portfolio/thumbnails/base-html-errors.png)
 
 - Home
@@ -125,6 +127,32 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 - Register
 ![image](/static/assets/img/portfolio/thumbnails/register-page-html-errors.png)
+
+# PEP8 Validator
+
+- PEP8 Views
+![image](/static/assets/img/portfolio/thumbnails/Python%20test%20views.png)
+
+- PEP8 Models
+![image](/static/assets/img/portfolio/thumbnails/Python%20model%20test.png)
+
+- PEP8 Tests
+![image](/static/assets/img/portfolio/thumbnails/tests%20python%20test.png)
+
+- PEP8 Forms
+![image](/static/assets/img/portfolio/thumbnails/test%20form%20python.png)
+
+# Lighthouse Test
+
+- Accessibility Test
+![image](/static/assets/img/portfolio/thumbnails/lighhouse-test-accebi-accessibility.png)
+
+- Best Practices Test
+![image](/static/assets/img/portfolio/thumbnails/lighthouse-best-practices.png)
+
+- SEO Test
+![image](/static/assets/img/portfolio/thumbnails/lighhouse-seo.png)
+
 
 </details>
 <hr>
