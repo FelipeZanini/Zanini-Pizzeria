@@ -101,6 +101,8 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 # HTML Validator
 
+<details>
+
 - Base Template
 ![image](/static/assets/img/portfolio/thumbnails/base-html-errors.png)
 
@@ -128,7 +130,11 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 - Register
 ![image](/static/assets/img/portfolio/thumbnails/register-page-html-errors.png)
 
+</details>
+
 # PEP8 Validator
+
+<details>
 
 - PEP8 Views
 ![image](/static/assets/img/portfolio/thumbnails/Python%20test%20views.png)
@@ -142,8 +148,11 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 - PEP8 Forms
 ![image](/static/assets/img/portfolio/thumbnails/test%20form%20python.png)
 
+</details>
+
 # Lighthouse Test
 
+<details>
 - Accessibility Test
 ![image](/static/assets/img/portfolio/thumbnails/lighhouse-test-accebi-accessibility.png)
 
@@ -153,6 +162,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 - SEO Test
 ![image](/static/assets/img/portfolio/thumbnails/lighhouse-seo.png)
 
+</details>
 
 </details>
 <hr>
