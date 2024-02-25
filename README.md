@@ -111,9 +111,6 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 - Menu Items
 ![image](/static/assets/img/portfolio/thumbnails/menu-items-html-errors.png)
 
-- Menu Items
-![image](/static/assets/img/portfolio/thumbnails/menu-items-html-errors.png)
-
 - User Page
 ![image](/static/assets/img/portfolio/thumbnails/user-page-html-errors.png)
 
