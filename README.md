@@ -10,7 +10,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 
 
-  ![Mock Up](/img/mockup.png)
+  ![Mock Up](/static/assets/img/portfolio/thumbnails/mockup.png)
 
 ## Features
 
@@ -21,49 +21,49 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
   - The initial web page is a eye catch to visitors, having the purpose to quickly capture the attention and instigate the curisioty, that could result in a reservation, or a quick look at the menu. It is well-designed including visually appealing images of the food and a great atmosphere, with an easy navigation to key sections like the menu, reservation system, and user section. The goal is to provide a positive and engaging first impression that motivates visitors to further explore the restaurant, the page contains a link to the reservation section.
 
 
-  ![Land Page](/img/land-page.png)
+  ![Land Page](/static/assets/img/portfolio/thumbnails/land-page.png)
 
 - __Benvenuti Section__
  
   - The Benvenuti section contributes to a positive user experience by presenting information in a user-friendly manner, indroducing the customer to what would be their expericiences in the restaurant, providing information about our cusine and our way to take care of our customers, the page contains a link to the menu section.
 
-  ![Benvenuti Section](/img/b-section.png)
+  ![Benvenuti Section](/static/assets/img/portfolio/thumbnails/benvenutti-section.png)
 
 - __Menu Section__
 
   - The menu section objective is to instigate customers with a visually appealing and informative presentation of our food and drinks options, facilitating the decision-making and enhancing the willing for our food, that section divede our menu in six categories, starters, main course, pizzas, desserts, drinks and beverages, hover over this caterogies to see the text information about the menu.
 
-  ![Menu Section](/img/menu.png)
+  ![Menu Section](/static/assets/img/portfolio/thumbnails/menu-section.png)
 
 - __Menu Items Section__
  
   - The menu item describes in a concise way about key details, like it's prince, ingredients, and flavors to inform and attract customers, it is simple and straightforward.
 
-  ![Menu Items Section](/img/m-i.png)
+  ![Menu Items Section](/static/assets/img/portfolio/thumbnails/menu-items.png)
 
   - __Reservation Section__
  
     - The reservation area is designated to book tables for two, four or six persons, allowing user to choose from a range of time and dates, convenient experience, it's not an explicit mention at first, but is worth to coment, that user can just book one table per time.
 
-  ![Reservation Section](/img/reservation.png)
+  ![Reservation Section](/static/assets/img/portfolio/thumbnails/book-section.png)
 
 - __User Page Section__
  
   - The user page Section is made to manage bookings and the user account itself, allowing the user to log out or even unregister from the site.
     
-  ![User Page Section](/img/account.png)
+  ![User Page Section](/static/assets/img/portfolio/thumbnails/user-section.png)
     
   - The user also capable of delete the reservation, with one day before it and update the reservation at any time.
     
-  ![User Page Section](/img/u-booking.png)
+  ![Same Day Cancellation](/static/assets/img/portfolio/thumbnails/same-day.png)
 
   - __Log In/ Register__
  
     - The login and register section is user-friendly and straightforward, allowing user to register and log in, once the user register he is log automatically.
 
-  ![Log In/ Register](/img/login.png)
+  ![Log In/ Register](/static/assets/img/portfolio/thumbnails/login.png)
 
-  ![Log In/ Register](/img/register.png)
+  ![Log In/ Register](/static/assets/img/portfolio/thumbnails/register.png)
 
   - __Models__
  
@@ -75,7 +75,9 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
       - check_table_availability method, which queries the database to check if a table in a specific time and date is avaliable, if two reservations already exist for the same table, it returns false, indicating that the table is not available; otherwise, it returns true.
       -  str method provides a string representation of a reservation, displaying booking time, date, and table size.
 
-  ![Log In/ Register](/img/modelss.png)
+  ![Reservation Model](/static/assets/img/portfolio/thumbnails/reservation-model.png)
+
+  ![Check table Model](/static/assets/img/portfolio/thumbnails/Python%20model%20test.png)
 
 ### Features Left to Implement
 
@@ -166,22 +168,6 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 </details>
 <hr>
-
-## Validator Testing
-
-  - No errors were returned when passing through the official [PEP8](https://pep8ci.herokuapp.com/) validator, used just in tested in all files, but just uploaded the models and views for simplicity purpose.
-  
-  - PEP8 Views.py.
-
-  ![PEP8 Views](/img/viewpep.png)
-
-  - PEP8 Model.py.
-
-  ![PEP8 Model](/img/modelpep.png)
-
- - No errors were returned in Django built tests.
-
-  ![Django Test](/img/testdajngo.png)
 
 ## Bugs
 
