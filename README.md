@@ -77,7 +77,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
   ![Reservation Model](/static/assets/img/portfolio/thumbnails/reservation-model.png)
 
-  ![Check table Model](/static/assets/img/portfolio/thumbnails/Python%20model%20test.png)
+  ![Check table Model](/static/assets/img/portfolio/thumbnails/check-table.png)
 
 ### Features Left to Implement
 
