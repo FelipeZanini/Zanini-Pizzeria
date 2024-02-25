@@ -88,12 +88,26 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
     
 
 ## Testing
+<details>
+<summary>Testing</summary>
 
-  - I have tested the code by the following methods:
-  - Passed on the Django test built in function, no issues found.
-  - Passed on the validator code PEPE8, no issues found.
-  - I manually tested the code, attempting to submit invalid inputs and reserve tables without prior registration, and double bookings as well.
-  - The site was tested on Heroku terminal and on the local terminal.
+- I have tested the code by the following methods:
+- Passed on the Django test built in function, no issues found.
+- Passed on the validator code PEPE8, no issues found.
+- I manually tested the code, attempting to submit invalid inputs and reserve tables without prior registration, and double bookings as well.
+- The site was tested on Heroku terminal and on the local terminal.
+- 
+- HTML Validator
+![image](/readme/html-base.png)
+
+- Products
+![image](/readme/html-products.png)
+
+- Newsletters
+![image](/readme/html-products.png)
+
+</details>
+<hr>
 
 ## Validator Testing
 
