@@ -88,7 +88,9 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
     
 
 ## Testing
+
 <details>
+
 <summary>Testing</summary>
 
 - I have tested the code by the following methods:
@@ -96,15 +98,36 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 - Passed on the validator code PEPE8, no issues found.
 - I manually tested the code, attempting to submit invalid inputs and reserve tables without prior registration, and double bookings as well.
 - The site was tested on Heroku terminal and on the local terminal.
-- 
-- HTML Validator
-![image](/readme/html-base.png)
 
-- Products
-![image](/readme/html-products.png)
+# HTML Validator
+![image](/static/assets/img/portfolio/thumbnails/base-html-errors.png)
 
-- Newsletters
-![image](/readme/html-products.png)
+- Home
+![image](/static/assets/img/portfolio/thumbnails/index-base-html-errors.png)
+
+- Menu
+![image](/static/assets/img/portfolio/thumbnails/menu-errors-html.png)
+
+- Menu Items
+![image](/static/assets/img/portfolio/thumbnails/menu-items-html-errors.png)
+
+- Menu Items
+![image](/static/assets/img/portfolio/thumbnails/menu-items-html-errors.png)
+
+- User Page
+![image](/static/assets/img/portfolio/thumbnails/user-page-html-errors.png)
+
+- Booking Page
+![image](/static/assets/img/portfolio/thumbnails/book-table-html-errors.png)
+
+- Booking Page
+![image](/static/assets/img/portfolio/thumbnails/book-table-html-errors.png)
+
+- Login 
+![image](/static/assets/img/portfolio/thumbnails/login-html-errors.png)
+
+- Register
+![image](/static/assets/img/portfolio/thumbnails/register-page-html-errors.png)
 
 </details>
 <hr>
