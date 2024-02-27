@@ -134,6 +134,14 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 </details>
 
+# CSS Validator
+
+<details>
+- CSS Validator
+![image](/static/assets/img/portfolio/thumbnails/css-validator.png)
+
+</details>
+
 # PEP8 Validator
 
 <details>
@@ -151,6 +159,21 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 ![image](/static/assets/img/portfolio/thumbnails/test%20form%20python.png)
 
 </details>
+
+## Visual (UI) Testing: Cross Browser and Cross Device Testing 
+
+| **TOOL / Device**           | **BROWSER**      | **OS**  | **SCREEN WIDTH** | Passed 
+|-----------------------------|------------------|---------|------------------|---------
+| dev tools: Galaxy Fold      | Chrome           | android | 280 x 653 px     |Yes
+| dev tools: iPhone SE        | safari           | iOs     | 375 x 667 px     |Yes
+| dev tools: Samsung S8+      | Chrome           | android | 360 x 740 px     |Yes
+| dev tools: Pixel 6         | Chrome           | android | 393 x 851 px     |Yes
+| dev tools: iPhone 14 Pro   | safari           | iOs     | 390 x 844 px     |Yes
+| browserstack: Nexus 7       | Firefox          | android | 960 x 600 px     |Yes
+| dev tools: Pixel Tablet   | Chrome           | android | 834 x 1075 px    |Yes
+| dev tools: Macbook Pro    | Firefox & Chrome | iOs     | 1400 x 766 px    |Yes
+| broswerstack                | Firefox          | iOs     | 1440 x 672 px    |Yes
+| browserstack                | Edge 113         | windows | 1440 x 672 px    |Yes
 
 # Lighthouse Test
 
