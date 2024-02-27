@@ -197,6 +197,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 - SEO Test
 <br>
+
 ![image](/static/assets/img/portfolio/thumbnails/lighhouse-seo.png)
 
 </details>
