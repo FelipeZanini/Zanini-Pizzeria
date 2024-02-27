@@ -138,6 +138,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 <details>
 - CSS Validator
+
 ![image](/static/assets/img/portfolio/thumbnails/css-validator.png)
 
 </details>
@@ -146,6 +147,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 <details>
 - JavaScript Validator
+
 ![image](/static/assets/img/portfolio/thumbnails/JavaScript-validator.png)
 
 </details>
@@ -194,6 +196,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 ![image](/static/assets/img/portfolio/thumbnails/lighthouse-best-practices.png)
 
 - SEO Test
+<br>
 ![image](/static/assets/img/portfolio/thumbnails/lighhouse-seo.png)
 
 </details>
