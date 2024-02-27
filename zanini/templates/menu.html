@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% block title %} Menu {% endblock %}
 <!-- Portfolio-->
 {% block content %}
 <section class="page-section">
@@ -10,7 +11,7 @@
                     <a href="{% url 'menu_items' %}#starters">
                         <div class="portfolio-box">
                             <img class="img-fluid"src="{% static 'assets/img/portfolio/thumbnails/21.jpg' %}"
-                                alt="..." />
+                                alt="starters plates" />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-name">Starters</div>
                             </div>
@@ -21,7 +22,7 @@
                     <a href="{% url 'menu_items' %}#main_course">
                         <div class="portfolio-box">
                             <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/28.jpg' %}"
-                                alt="..." />
+                                alt="main courses plates" />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-name">Main Course</div>
                             </div>
@@ -32,7 +33,7 @@
                     <a href="{% url 'menu_items' %}#pizzas">
                         <div class="portfolio-box">
                             <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/29.jpg' %}"
-                                alt="..." />
+                                alt="pizzas plates" />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-name">Pizzas</div>
                             </div>
@@ -43,7 +44,7 @@
                     <a href="{% url 'menu_items' %}#desserts">
                         <div class="portfolio-box">
                             <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/30.jpg' %}"
-                                alt="..." />
+                                alt="desserts plates" />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-name">Dessert</div>
                             </div>
@@ -54,7 +55,7 @@
                     <a href="{% url 'menu_items' %}#soft_drinks">
                         <div class="portfolio-box">
                             <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/31.jpg' %}"
-                                alt="..." />
+                                alt="soft drinks" />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-name">Soft Drinks</div>
                             </div>
@@ -65,7 +66,7 @@
                     <a href="{% url 'menu_items' %}#beer_wine">
                         <div class="portfolio-box">
                             <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/32.jpg' %}"
-                                alt="..." />
+                                alt="beer wine" />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-name">Beer & Wine</div>
                             </div>

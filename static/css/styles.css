@@ -3328,7 +3328,7 @@ fieldset:disabled .btn {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #f4623a;
+  --bs-btn-bg: #ffffff;
   --bs-btn-border-color: #f4623a;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #cf5331;
@@ -12446,8 +12446,8 @@ body {
 
 .btn-xl {
   padding: 1.25rem 2.25rem;
-  font-size: 0.85rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 900;
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
@@ -12501,7 +12501,7 @@ hr.divider-light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: black !important;
 }
 
 @media (min-width: 992px) {

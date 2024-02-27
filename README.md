@@ -142,6 +142,14 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 </details>
 
+# JavaScript Validator
+
+<details>
+- JavaScript Validator
+![image](/static/assets/img/portfolio/thumbnails/JavaScript-validator.png)
+
+</details>
+
 # PEP8 Validator
 
 <details>
@@ -178,6 +186,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 # Lighthouse Test
 
 <details>
+
 - Accessibility Test
 ![image](/static/assets/img/portfolio/thumbnails/lighhouse-test-accebi-accessibility.png)
 
@@ -186,6 +195,28 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 - SEO Test
 ![image](/static/assets/img/portfolio/thumbnails/lighhouse-seo.png)
+
+</details>
+
+# Wave Accessibillity Tool
+
+<details>
+
+- Contrast Home
+![image](/static/assets/img/portfolio/thumbnails/contrast-home.png)
+
+- Contrast Menu
+![image](/static/assets/img/portfolio/thumbnails/contrast-menu.png)
+
+- Contrast Menu Items
+![image](/static/assets/img/portfolio/thumbnails/contrast-menu-items.png)
+
+- Contrast Login
+![image](/static/assets/img/portfolio/thumbnails/contrast-login.png)
+
+- Contrast Register
+![image](/static/assets/img/portfolio/thumbnails/contrast-register.png)
+
 
 </details>
 
