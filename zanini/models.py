@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+import datetime
 
 
 class Reservation(models.Model):
@@ -24,6 +25,14 @@ class Reservation(models.Model):
 
     booking_time = models.CharField(max_length=1, choices=BOOKING_TIME, null=False)
     table_size = models.CharField(max_length=1, choices=TABLE_SIZE)
+
+    @staticmethod
+    def delete_old_dates():       
+        reservations = Reservation.objects.all()
+        for reservation in reservations:
+            if reservation.date < datetime.date.today():
+                reservation.delete()
+
 
     @staticmethod
     def check_table_avaliability(table_size, booking_time, date):       
