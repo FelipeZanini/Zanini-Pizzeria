@@ -6,7 +6,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
   ![Mock Up](/static/assets/img/portfolio/thumbnails/mockup.png)
 
-- The live link can be found here: [Zanfe](https://zanini-pizzeria-0279eae282e5.herokuapp.com/)
+- The live link can be found here: [Zanini-Pizzeria](https://zanini-pizzeria-0279eae282e5.herokuapp.com/)
 
 # Author
 Felipe Zanini Silva
@@ -65,7 +65,7 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
 
   ![Menu Items Section](/static/assets/img/portfolio/thumbnails/menu-items.png)
 
-  - __Reservation Section__
+- __Reservation Section__
  
     The reservation area is designated to book tables for two, four or six persons, allowing user to choose from a range of time and dates, convenient experience, it's not an explicit mention at first, but is worth to coment, that user can just book one table per time.
 
@@ -81,7 +81,7 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
     
   ![Same Day Cancellation](/static/assets/img/portfolio/thumbnails/same-day.png)
 
-  - __Log In/ Register__
+- __Log In/ Register__
  
   The login and register section is user-friendly and straightforward, allowing user to register and log in, once the user register he is log automatically.
 
