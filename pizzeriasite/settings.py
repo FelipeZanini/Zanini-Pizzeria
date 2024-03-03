@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-felipezanin-zaninipizze-kyfp7ncsgj5.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['zanini-pizzeria-0279eae282e5.herokuapp.com']
 
 
 # Application definition
@@ -89,9 +89,17 @@ WSGI_APPLICATION = 'pizzeriasite.wsgi.application'
 #      'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 #  }
 
+# if 'DATABASE_URL' in os.environ:
 DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
+# else:
+#    DATABASES = {
+#        'default': {
+#            'ENGINE': 'django.db.backends.sqlite3',
+#            'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
+#      }
+#    }
 
 
 # Password validation
