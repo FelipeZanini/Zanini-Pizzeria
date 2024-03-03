@@ -189,16 +189,29 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 <details>
 
-- Accessibility Test
-![image](/static/assets/img/portfolio/thumbnails/lighhouse-test-accebi-accessibility.png)
+- Home
+![image](/static/assets/img/portfolio/thumbnails/LH-HOME.png)
 
-- Best Practices Test
-![image](/static/assets/img/portfolio/thumbnails/lighthouse-best-practices.png)
+- Menu
+![image](/static/assets/img/portfolio/thumbnails/LH-MENU.png)
 
-- SEO Test
-<br>
+- Menu Items
+![image](/static/assets/img/portfolio/thumbnails/LG-MENU-ITEM.png)
 
-![image](/static/assets/img/portfolio/thumbnails/lighhouse-seo.png)
+- User Page
+![image](/static/assets/img/portfolio/thumbnails/user-page-html-errors.png)
+
+- Booking Page
+![image](/static/assets/img/portfolio/thumbnails/book-table-html-errors.png)
+
+- Booking Page
+![image](/static/assets/img/portfolio/thumbnails/book-table-html-errors.png)
+
+- Login 
+![image](/static/assets/img/portfolio/thumbnails/LH-LOGIN.png)
+
+- Register
+![image](/static/assets/img/portfolio/thumbnails/register-page-html-errors.png)
 
 </details>
 
