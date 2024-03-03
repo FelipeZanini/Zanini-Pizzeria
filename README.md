@@ -6,7 +6,7 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
   ![Mock Up](/static/assets/img/portfolio/thumbnails/mockup.png)
 
-- The live link can be found here: [Zanfe](https://zanfe-009510b2eec0.herokuapp.com/)
+- The live link can be found here: [Zanfe](https://zanini-pizzeria-0279eae282e5.herokuapp.com/)
 
 # Author
 Felipe Zanini Silva
