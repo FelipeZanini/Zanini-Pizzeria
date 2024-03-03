@@ -12,7 +12,26 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 The restaurant booking website provides a seamless user experience with intuitive navigation, comprehensive booking system, and easy reservation management. Users can quickly make reservations with real-time availability updates, the mobile-responsive design ensures accessibility across devices.
 
 ## User Stories
-<a href="https://github.com/users/FelipeZanini/projects/4/views/1" target="_blank">User Stories</a>
+[Link to User Stories](https://github.com/users/FelipeZanini/projects/4/views/1)
+## Frameworks
+I decided to utilise Bootstrap for my website because it made it simple and quick for me to construct a responsive design that functions well across a range of devices.
+
+## CRUD
+<details>
+<summary>CRUD Details</summary>
+
+- **Booking:**
+  
+- Update Booking
+- ![image](/static/assets/img/portfolio/thumbnails/Update-booking.png)
+
+- Delete Booking
+- ![image](/static/assets/img/portfolio/thumbnails/Delete-Booking.png)
+
+- Delete Account
+- ![image](/static/assets/img/portfolio/thumbnails/Delete-account.png)
+
+</details>
 
 ## Features
 
@@ -97,11 +116,15 @@ The restaurant booking website provides a seamless user experience with intuitiv
 
 <summary>Testing</summary>
 
-- I have tested the code by the following methods:
-- Passed on the Django test built in function, no issues found.
-- Passed on the validator code PEPE8, no issues found.
-- I manually tested the code, attempting to submit invalid inputs and reserve tables without prior registration, and double bookings as well.
-- The site was tested on Heroku terminal and on the local terminal.
+  I have tested the code by the following methods:
+  - Passed on the Django test built-in function, no issues found.
+  - Passed on the validator code PEPE8, no issues found.
+  - I manually tested the code, attempting to visit pages forbidden for non-registered users.
+  - I added a login required decorator in each function that just registered users can access.
+  - I tested each button individually in different screen sizes, and no problems were found.
+  - I inserted url to try to hack the site, but my code seems to be safe.
+  - I started the secret variables in the protected virtual environment. 
+  - The site was tested on the Heroku terminal and the local terminal.
 
 # HTML Validator
 
@@ -245,6 +268,69 @@ The restaurant booking website provides a seamless user experience with intuitiv
 </details>
 <hr>
 
+## Technologies Used
+Several technologies have been used to enable this website works:
+| Technology               | Description                                                                                                                                          |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Django                   | Django is the framework that has been used in the project, enables efficient development, database interactions and secure authentication.           |
+| Python                   | Python is the core programming language that was used to write all of the code in this application, to make it fully functional.                     |
+| JavaScript               | JavaScript was used to provide dynamic interactivity to the messages and enhancing the functionality of the  timepicker.                             |
+| Bootstrap                | Bootstrap was utilized to ensure a responsive design.                                                                                                |
+| Git                      | Git was utilized as the version control system for tracking changes, and maintaining the project's codebase.                                         |
+| PostgreSQL               | PostgreSQL was employed as the relational database management system to store and manage the project's data.                                         |
+| GitHub                   | Github was used as development environment, code management and tracking of changes.                                                                 |
+| Font Awesome             | Font Awesome was used to obtain the icons of the website, enhancing the overall design.                                                              |
+| Google Developer Tools   | DevTools was the primary toll for bug detection, testing the responsiveness and resolving issues across the website.                                 |
+| Heroku                   | Heroku was used to deploy the website.                                                                                                               |
+| CI's pep8                | CI's pep8 tool was used to validate all the python code.                                                                                             |
+| Jigsaw                   | Jigsaw was used to validate CSS code.                                                                                                                |
+| W3 HTML                  | W3 HTML was used to validate HTML code.                                                                                                              |
+| Jshint                   | Jshint was used to validate JavaScript Code.                                                                                                         |
+| AmIResponsive            | AmIResponsive was used to generate screenshots of the website in various device sizes, allowing for a quick visual assessment of its responsiveness. |
+| Gitpod                   | Gitpod was used to write and edit the project code.                                                                                                  |diagrams.                                                                                                         |                                                                                                                                                                                                 |                                                                                           
+### Languages
+- HTML
+- CSS
+- Python
+- JavaScript 
+
+### Frameworks, Libraries & Programs Used
+- Django
+- Bootstrap
+- Git 
+- PostgreSQL
+- GitHub
+- Font Awesome
+- Google Developer Tools
+- Heroku
+- W3 HTML
+- AmIResponsive
+- Gitpod
+
+## Production Deployment
+To deploy your application on Heroku, follow the steps bellow:
+
+1. **Create a Heroku Account:**
+- Visit the [Heroku](https://signup.heroku.com/login) website.
+- Sign up for a free account or log in if you already have one.
+
+2. **Create a New Heroku App:**
+- Once you are logged in to your Heroku account, click on the "New" button and select "Create new app".
+- Choose a unique name for your app. This name will be used in the App's URL.
+- Select the region closest to your location for better performance.
+
+3. **Connect the App to Your Git Repository:**
+- After creating the app, go to the "Deploy" tab in your app's dashboard.
+- Choose the deployment method based on your Git repository: (e.g. GitHub).
+- Connect your app to the appropriate repository and branch.
+
+4. **Configure Environment Variables:**
+- In the "Settings" tab of your heroku app's dashboard, locate the "Config Vars" section.
+- Set the necessary enviroment variables required for your aplication. 
+- Click on the "Reveal Config Vars" button to add the key-value pairs for your enviroment variables:
+
+- The live link can be found here: [Zanini Pizzeria](https://zanini-pizzeria-0279eae282e5.herokuapp.com/)
+
 ## Bugs
 
 ### Solved Bugs
@@ -255,16 +341,22 @@ The restaurant booking website provides a seamless user experience with intuitiv
   
   - No bugs reaming
 
-## Deployment
+## Modules and Libraries:
+- [Django](https://www.djangoproject.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [JavaScript](https://www.javascript.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [jQuery](https://jquery.com/)
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+- [Django allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
+- [AWS](https://aws.amazon.com/)
+- [Stripe](https://stripe.com/ie)
+- [Git](https://git-scm.com/)
+- [PostgreSQL](https://www.postgresql.org/)
 
-  - This project was deployed at Heroku, steps for deploy are listed bellow:
-    - Fork or clone the repository.
-    - Creat a new Heroku app.
-    - Set up the configs for the deployment.
-    - Set up the connection with PostgresSQL
-    - Link the Heroku app to the repository, then Deploy.
-
-    - The live link can be found here: [Zanini Pizzeria](https://zanini-pizzeria-0279eae282e5.herokuapp.com/)
+## Media
+- [Google Fonts](https://fonts.google.com/) - The fonts were sourced using Google Fonts.
+- [Font Awesome](https://fontawesome.com/) - The icons was taken from Font Awesome.
 
 ## Credits:
 
