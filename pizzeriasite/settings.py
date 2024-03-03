@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['zanini-pizzeria-0279eae282e5.herokuapp.com']
+ALLOWED_HOSTS = ['zanini-pizzeria-0279eae282e5.herokuapp.com', '8000-felipezanin-zaninipizze-icc9zln539j.ws-eu108.gitpod.io']
 
 
 # Application definition

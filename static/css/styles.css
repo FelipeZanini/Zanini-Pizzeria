@@ -3330,8 +3330,8 @@ fieldset:disabled .btn {
   --bs-btn-color: #fff;
   --bs-btn-bg: #ffffff;
   --bs-btn-border-color: #f4623a;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #cf5331;
+  --bs-btn-hover-color: #5c636a;
+  --bs-btn-hover-bg: #d3d4d5;
   --bs-btn-hover-border-color: #c34e2e;
   --bs-btn-focus-shadow-rgb: 246, 122, 88;
   --bs-btn-active-color: #fff;
@@ -6885,6 +6885,26 @@ fieldset:disabled .btn {
 }
 
 @media (max-width: 767.98px) {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption,
+#portfolio .container-md .portfolio-box .portfolio-box-caption,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+  opacity: 1!important;
+  color: black!important;
+  background: transparent!importantbtn btn-primary;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name:hover {
+  background: #d3d4d5!important;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  background-color: white;
+  border-radius: .375rem;
+  padding: 3px;
+}
 
   .offcanvas-md.showing,
   .offcanvas-md.show:not(.hiding) {
