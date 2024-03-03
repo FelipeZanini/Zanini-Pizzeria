@@ -23,13 +23,13 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
 - **Booking:**
   
 - Update Booking
-- ![image](/static/assets/img/portfolio/thumbnails/Update-booking.png)
+  ![image](/static/assets/img/portfolio/thumbnails/Update-booking.png)
 
 - Delete Booking
-- ![image](/static/assets/img/portfolio/thumbnails/Delete-Booking.png)
+  ![image](/static/assets/img/portfolio/thumbnails/Delete-Booking.png)
 
 - Delete Account
-- ![image](/static/assets/img/portfolio/thumbnails/Delete-account.png)
+  ![image](/static/assets/img/portfolio/thumbnails/Delete-account.png)
 
 </details>
 
@@ -39,48 +39,48 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
 
 - __Restaurant Land Page__
  
-  - The initial web page is a eye catch to visitors, having the purpose to quickly capture the attention and instigate the curisioty, that could result in a reservation, or a quick look at the menu. It is well-designed including visually appealing images of the food and a great atmosphere, with an easy navigation to key sections like the menu, reservation system, and user section. The goal is to provide a positive and engaging first impression that motivates visitors to further explore the restaurant, the page contains a link to the reservation section.
+  The initial web page is a eye catch to visitors, having the purpose to quickly capture the attention and instigate the curisioty, that could result in a reservation, or a quick look at the menu. It is well-designed including visually appealing images of the food and a great atmosphere, with an easy navigation to key sections like the menu, reservation system, and user section. The goal is to provide a positive and engaging first impression that motivates visitors to further explore the restaurant, the page contains a link to the reservation section.
 
 
   ![Land Page](/static/assets/img/portfolio/thumbnails/land-page.png)
 
 - __Benvenuti Section__
  
-  - The Benvenuti section contributes to a positive user experience by presenting information in a user-friendly manner, indroducing the customer to what would be their expericiences in the restaurant, providing information about our cusine and our way to take care of our customers, the page contains a link to the menu section.
+  The Benvenuti section contributes to a positive user experience by presenting information in a user-friendly manner, indroducing the customer to what would be their expericiences in the restaurant, providing information about our cusine and our way to take care of our customers, the page contains a link to the menu section.
 
   ![Benvenuti Section](/static/assets/img/portfolio/thumbnails/benvenutti-section.png)
 
 - __Menu Section__
 
-  - The menu section objective is to instigate customers with a visually appealing and informative presentation of our food and drinks options, facilitating the decision-making and enhancing the willing for our food, that section divede our menu in six categories, starters, main course, pizzas, desserts, drinks and beverages, hover over this caterogies to see the text information about the menu.
+  The menu section objective is to instigate customers with a visually appealing and informative presentation of our food and drinks options, facilitating the decision-making and enhancing the willing for our food, that section divede our menu in six categories, starters, main course, pizzas, desserts, drinks and beverages, hover over this caterogies to see the text information about the menu.
 
   ![Menu Section](/static/assets/img/portfolio/thumbnails/menu-section.png)
 
 - __Menu Items Section__
  
-  - The menu item describes in a concise way about key details, like it's prince, ingredients, and flavors to inform and attract customers, it is simple and straightforward.
+  The menu item describes in a concise way about key details, like it's prince, ingredients, and flavors to inform and attract customers, it is simple and straightforward.
 
   ![Menu Items Section](/static/assets/img/portfolio/thumbnails/menu-items.png)
 
   - __Reservation Section__
  
-    - The reservation area is designated to book tables for two, four or six persons, allowing user to choose from a range of time and dates, convenient experience, it's not an explicit mention at first, but is worth to coment, that user can just book one table per time.
+    The reservation area is designated to book tables for two, four or six persons, allowing user to choose from a range of time and dates, convenient experience, it's not an explicit mention at first, but is worth to coment, that user can just book one table per time.
 
   ![Reservation Section](/static/assets/img/portfolio/thumbnails/book-section.png)
 
 - __User Page Section__
  
-  - The user page Section is made to manage bookings and the user account itself, allowing the user to log out or even unregister from the site.
+  The user page Section is made to manage bookings and the user account itself, allowing the user to log out or even unregister from the site.
     
   ![User Page Section](/static/assets/img/portfolio/thumbnails/user-section.png)
     
-  - The user also capable of delete the reservation, with one day before it and update the reservation at any time.
+  The user also capable of delete the reservation, with one day before it and update the reservation at any time.
     
   ![Same Day Cancellation](/static/assets/img/portfolio/thumbnails/same-day.png)
 
   - __Log In/ Register__
  
-    - The login and register section is user-friendly and straightforward, allowing user to register and log in, once the user register he is log automatically.
+  The login and register section is user-friendly and straightforward, allowing user to register and log in, once the user register he is log automatically.
 
   ![Log In/ Register](/static/assets/img/portfolio/thumbnails/login.png)
 
@@ -89,12 +89,13 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
   - __Models__
  
     - For this project only a single model has been made up, that is the Reservation model. This model is responsible for associating each booking with a specific customer. Additionally, it prevents double bookings and includes functionality to check if a table of a given size and at a specific time on a particular date is available(the restaurant just has two table of each size).
-      - user, a one-to-one relationship with the built-in User model, it establishes a link between a reservation and a specific user.
-      - date, a datefield to store the reservation date.
-      - booking_time, representing the selected booking time from the choices provided in BOOKING_TIME(2pm, 3pm, 4pm, ..., 8pm).
-      - table_size, representing the selected table size from the choices provided in TABLE_SIZE(2, 4 or 6 persons).
-      - check_table_availability method, which queries the database to check if a table in a specific time and date is avaliable, if two reservations already exist for the same table, it returns false, indicating that the table is not available; otherwise, it returns true.
-      -  str method provides a string representation of a reservation, displaying booking time, date, and table size.
+    - user, a one-to-one relationship with the built-in User model, it establishes a link between a reservation and a specific user.
+    - date, a datefield to store the reservation date.
+    - booking_time, representing the selected booking time from the choices provided in BOOKING_TIME(2pm, 3pm, 4pm, ..., 8pm).
+    - table_size, representing the selected table size from the choices provided in TABLE_SIZE(2, 4 or 6 persons).
+    - check_table_availability method, which queries the database to check if a table in a specific time and date is avaliable, if two reservations already 
+    exist for the same table, it returns false, indicating that the table is not available; otherwise, it returns true.
+    - str method provides a string representation of a reservation, displaying booking time, date, and table size.
 
   ![Reservation Model](/static/assets/img/portfolio/thumbnails/reservation-model.png)
 
@@ -104,8 +105,8 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
 
   - Allow the site admin to receive an email when a customer book a table.
   - Allow the customer to buy his food online, with.
-    - Containing a payment methods.
-    - Ways to check the delivery time and location.
+  - Containing a payment methods.
+  - Ways to check the delivery time and location.
   - Exclude the old data every two weeks.
   - A direct channel to contact the restaurant owner.
     
@@ -125,6 +126,8 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
   - I inserted url to try to hack the site, but my code seems to be safe.
   - I started the secret variables in the protected virtual environment. 
   - The site was tested on the Heroku terminal and the local terminal.
+
+  The link to the test case can be found here: [TestCase](https://github.com/users/FelipeZanini/projects/11)
 
 # HTML Validator
 
@@ -371,9 +374,7 @@ To deploy your application on Heroku, follow the steps bellow:
     - [Engin Akyurt](https://www.pexels.com/photo/food-photography-of-pasta-1438672/)
     - [Susanne Jutzeler](https://www.pexels.com/photo/assorted-juice-on-glass-bottles-1234079/)
     - [Julia Filirovska](https://www.pexels.com/photo/slices-of-meat-item-with-green-leaves-8251572/)
-  
-  - I obtained the code for my datepicker from a solution on Stack Overflow.
-    - [Stackoverflow code](https://stackoverflow.com/questions/14646008/jquery-datepicker-min-max-dates)
+
   - I got the source code of the template from open-source Bootstrap themes.
     - [bootstrap-theme](https://startbootstrap.com/theme/creative)
   - I also searched for solutions of the problems that occurred during the project development on the following websites:
@@ -381,4 +382,5 @@ To deploy your application on Heroku, follow the steps bellow:
     - [Geeksforgeeks](https://www.geeksforgeeks.org/)
     - [Freecodecamp](https://www.freecodecamp.org/news)
     - [Medium](https://medium.com/)
+  
   - The Code Institute for the deployment terminal
