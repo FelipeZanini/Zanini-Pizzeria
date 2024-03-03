@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %} Index{% endblock %}
+{% block title %} Jujuba {% endblock %}
 
 {% block content %}
 {% for message in messages %}
@@ -15,7 +15,7 @@
             <div class="col-lg-8 align-self-baseline">
                 <h1 class="text-white mb-5">ZANINI PIZZERIA</h1>
                 <p class="text-white mb-5">3 Ratoath Sommerville Meath <br> Call: 086 369 3896</p>
-                <a class="btn btn-primary btn-xl" href="{% url 'book_table' %}">Book a Table</a>
+                <a class="btn btn-primary btn-xl text-dark" href="{% url 'book_table' %}">Book a Table</a>
             </div>
         </div>
     </div>
@@ -25,9 +25,9 @@
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-8 text-center">
-                <h2 class="text-white mt-0">Benvenuti</h2>
-                <hr class="divider divider-light">
-                <p class="text-white mb-4">At Zanini Pizzeria, we are committed to providing not just a meal, but a memorable italian culinary journey. Our team of dedicated chefs and hospitality professionals has crafted a menu that reflects our passion for quality ingredients, innovative flavors, and exceptional service.</p>
+                <h2 class="text-dark mt-0">Benvenuti</h2>
+                <hr class="divider divider-light" />
+                <p class="text-dark mb-4">At Zanini Pizzeria, we are committed to providing not just a meal, but a memorable italian culinary journey. Our team of dedicated chefs and hospitality professionals has crafted a menu that reflects our passion for quality ingredients, innovative flavors, and exceptional service.</p>
                 <a class="btn btn-light btn-xl" href="{% url 'menu' %}">Check our Menu!</a>
             </div>
         </div>
