@@ -6893,7 +6893,7 @@ fieldset:disabled .btn {
 #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
   opacity: 1!important;
   color: black!important;
-  background: transparent!importantbtn btn-primary;
+  background: transparent!important;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name:hover {
