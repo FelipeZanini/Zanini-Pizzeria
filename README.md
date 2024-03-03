@@ -4,13 +4,15 @@ The objective of my Zanini-Pizzeria restaurant website is to engage customers to
 
 The User can enjoy a fully responsive website, easily navigated that allow them, to manage their booking, canceling it or updating the date, that requires a account, but don't worry, the process to register and login is pretty straight foward, focusing in what matters, the beloved italian food.
 
-
-
-
-
-
-
   ![Mock Up](/static/assets/img/portfolio/thumbnails/mockup.png)
+
+- The live link can be found here: [Zanfe](https://zanfe-009510b2eec0.herokuapp.com/)
+
+# UX
+The restaurant booking website provides a seamless user experience with intuitive navigation, comprehensive booking system, and easy reservation management. Users can quickly make reservations with real-time availability updates, the mobile-responsive design ensures accessibility across devices.
+
+## User Stories
+<a href="https://github.com/users/FelipeZanini/projects/4/views/1" target="_blank">User Stories</a>
 
 ## Features
 
