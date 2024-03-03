@@ -198,20 +198,17 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 - Menu Items
 ![image](/static/assets/img/portfolio/thumbnails/LG-MENU-ITEM.png)
 
+- Booking Page
+![image](/static/assets/img/portfolio/thumbnails/LH-BT.png)
+
 - User Page
-![image](/static/assets/img/portfolio/thumbnails/user-page-html-errors.png)
-
-- Booking Page
-![image](/static/assets/img/portfolio/thumbnails/book-table-html-errors.png)
-
-- Booking Page
-![image](/static/assets/img/portfolio/thumbnails/book-table-html-errors.png)
+![image](/static/assets/img/portfolio/thumbnails/LH-USER.png)
 
 - Login 
 ![image](/static/assets/img/portfolio/thumbnails/LH-LOGIN.png)
 
 - Register
-![image](/static/assets/img/portfolio/thumbnails/register-page-html-errors.png)
+![image](/static/assets/img/portfolio/thumbnails/LH-RG.png)
 
 </details>
 
@@ -227,6 +224,12 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 - Contrast Menu Items
 ![image](/static/assets/img/portfolio/thumbnails/contrast-menu-items.png)
+
+- Booking Page
+![image](/static/assets/img/portfolio/thumbnails/CONTRAST-BT.png)
+
+- User Page
+![image](/static/assets/img/portfolio/thumbnails/CONTRAST-USER.png)
 
 - Contrast Login
 ![image](/static/assets/img/portfolio/thumbnails/contrast-login.png)
