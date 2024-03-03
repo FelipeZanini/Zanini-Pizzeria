@@ -16,9 +16,9 @@ def menu(request):
 
 
 def book_table(request):
-    # if not request.user.is_authenticated:
-    #     messages.success(request, 'Login for table reservations!')
-    #     return redirect('login')
+    if not request.user.is_authenticated:
+        messages.success(request, 'Login for table reservations!')
+        return redirect('login')
 
     form = ReservationForm()
     if request.method == 'POST':
@@ -57,7 +57,6 @@ def book_table(request):
 @login_required
 def delete_reservation(request, id_item):
     reservation = Reservation.objects.get(id=id_item, user=request.user)
-    print(reservation)
     if not reservation.date == date.today():
         reservation.delete()
         messages.success(request, 'Reservation canceled!')
@@ -89,7 +88,7 @@ def update_reservation(request, id_item):
     return render(request, 'book_table.html', {'form': form})
 
 
-# @login_required
+@login_required
 def user_page(request):
     reservations = Reservation.objects.filter(user=request.user)
     return render(request, 'user_page.html', {'reservations': reservations})

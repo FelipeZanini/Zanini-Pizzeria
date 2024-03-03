@@ -8,6 +8,9 @@ The User can enjoy a fully responsive website, easily navigated that allow them,
 
 - The live link can be found here: [Zanfe](https://zanfe-009510b2eec0.herokuapp.com/)
 
+# Author
+Felipe Zanini Silva
+
 # UX
 The restaurant booking website provides a seamless user experience with intuitive navigation, comprehensive booking system, and easy reservation management. Users can quickly make reservations with real-time availability updates, the mobile-responsive design ensures accessibility across devices.
 
@@ -127,7 +130,13 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
   - I started the secret variables in the protected virtual environment. 
   - The site was tested on the Heroku terminal and the local terminal.
 
-  The link to the test case can be found here: [TestCase](https://github.com/users/FelipeZanini/projects/11)
+  # Manual Testing
+
+  The link to the manual tests can be found here: [TestCase](https://github.com/users/FelipeZanini/projects/11)
+
+# Defects
+
+  Defects were documented in github using a custom issue template: [Defects](https://github.com/FelipeZanini/Zanini-Pizzeria/issues/8)
 
 # HTML Validator
 
@@ -267,6 +276,7 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
 
 
 </details>
+
 
 </details>
 <hr>
