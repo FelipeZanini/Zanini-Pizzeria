@@ -23,19 +23,19 @@ class Reservation(models.Model):
         ("8", " 8pm to 9pm"),
     ]
 
-    booking_time = models.CharField(max_length=1, choices=BOOKING_TIME, null=False)
+    booking_time = models.CharField(max_length=1,
+                                    choices=BOOKING_TIME, null=False)
     table_size = models.CharField(max_length=1, choices=TABLE_SIZE)
 
     @staticmethod
-    def delete_old_dates():       
+    def delete_old_dates():
         reservations = Reservation.objects.all()
         for reservation in reservations:
             if reservation.date < datetime.date.today():
                 reservation.delete()
 
-
     @staticmethod
-    def check_table_avaliability(table_size, booking_time, date):       
+    def check_table_avaliability(table_size, booking_time, date):
         query_reservation = Reservation.objects.filter(
             table_size__contains=table_size,
             booking_time__contains=booking_time,

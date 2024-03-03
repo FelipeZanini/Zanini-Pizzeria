@@ -39,7 +39,8 @@ def book_table(request):
                         messages.success(request, 'Table booked successfully!')
                         return redirect('home')
                     else:
-                        messages.success(request,"You can't time travel, yet.")
+                        messages.success(request,
+                                         "You can't time travel, yet.")
                         return redirect('book_table')
                 else:
                     messages.success(request,
@@ -84,7 +85,7 @@ def update_reservation(request, id_item):
                 return redirect('home')
             else:
                 messages.success(request,
-                                'Sorry, Tables full for this date and time.')
+                                 'Sorry, Tables full for this date and time.')
     return render(request, 'book_table.html', {'form': form})
 
 
