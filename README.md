@@ -130,13 +130,22 @@ I decided to utilise Bootstrap for my website because it made it simple and quic
   - I started the secret variables in the protected virtual environment. 
   - The site was tested on the Heroku terminal and the local terminal.
 
-  # Manual Testing
+# Manual Testing
 
   The link to the manual tests can be found here: [TestCase](https://github.com/users/FelipeZanini/projects/11)
 
-# Defects
+# Bugs
 
-  Defects were documented in github using a custom issue template: [Defects](https://github.com/FelipeZanini/Zanini-Pizzeria/issues/8)
+Defects Issues can be found here: [Defects Issues](https://github.com/FelipeZanini/Zanini-Pizzeria/issues)
+
+## Solved Bugs
+
+  - During the initial stages of working on this project, I was relatively unfamiliar with the Django framework. As I progressed, I found myself needing to learn various topics, relying with a lot of help in web forum, but since I got hang of, it was easy to write my code, the biggest problem is this project was the deployment to Heroku, it took several days to solve all the errors that I was facing, such as bad requests, broken links etc, but I decided to use Cloudnary for my page images and White Sound for my static files, since I made that decision everytinh flowed as expected.
+  - Addressed the defects issues with updating bookings by implementing a solution that includes a login_required decorator within the function and also filters reservations by user, Similarly, for the delete booking defects, I applied the login_required decorator to the function to resolve the issues.
+
+### Reaming Bugs
+  
+  - No bugs reaming
 
 # HTML Validator
 
@@ -320,8 +329,30 @@ Several technologies have been used to enable this website works:
 - AmIResponsive
 - Gitpod
 
-## Production Deployment
-To deploy your application on Heroku, follow the steps bellow:
+## Deployment
+
+# ElephantSQL
+
+**ElephantSQL Set Up Account:**
+1. Visit the [ElephantSQL](https://www.elephantsql.com/) website.
+2. Sign up for an account if you don't have one.
+3. After signing in, you will be redirected to the ElephantSQL dashboard.
+4. Click on "Create New Instance" to create a new PostgreSQL database instance.
+5. Choose a suitable plan for your needs.
+6. Configure the database settings, such as the region and database name.
+7. Click on "Create" to create the database instance.
+8. Once the instance is created, you will see the details of your database, including the hostname, port, username and password.
+**Retrieve the Database URL:**
+1. In the ElephantSQL dashboard, locate your newly created database instance.
+2. Click on the instance to view its details.
+3. In the "Details" tab, you will find the connection details for your database, including the URL.
+**Set Environmental Variables:**
+1. After obtaining the database URL, you need to set it as an environmental variable in your development environment.
+2. The specific steps to set environmental variables depend on your operating system and development environment.
+3. In general, you can set the environmental variable by adding the following line to your **'env.py'** file or the environment configuration of your development enviroment: **DATABASE_URL=<YOUR_DATABASE_URL>**
+4. Replace **"<YOUR_DATABASE_URL>"** with the actual database URL you obtained from ElephantSQL.
+
+# Heroku
 
 1. **Create a Heroku Account:**
 - Visit the [Heroku](https://signup.heroku.com/login) website.
@@ -343,16 +374,6 @@ To deploy your application on Heroku, follow the steps bellow:
 - Click on the "Reveal Config Vars" button to add the key-value pairs for your enviroment variables:
 
 - The live link can be found here: [Zanini Pizzeria](https://zanini-pizzeria-0279eae282e5.herokuapp.com/)
-
-## Bugs
-
-### Solved Bugs
-
-  - At the beginning of my journey through this project I was very unused to the Django language, I had to learn more topics while I was doing the project, relying with a lot of help in web forum, but since I got  hang of, it was easy to write my code, the biggest problem is this project was the deployment to Heroku, it took me more than 4 days to solve all the errors that I was facing, such as bad requests, broken links etc, but I decided to user Cloudnary for my page images and White Sound for my static files, since I made that decision everytinh flowed as expected.
-
-### Reaming Bugs
-  
-  - No bugs reaming
 
 ## Modules and Libraries:
 - [Django](https://www.djangoproject.com/)
